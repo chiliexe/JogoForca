@@ -1,0 +1,40 @@
+* {
+    padding: 0px;
+    margin: 0px;
+}
+
+.principal {
+    display: flex;
+}
+
+.jogo {
+    margin: 40px;
+}
+
+.digitar {
+    margin-left: 40px;
+}
+.letras, .digitar input{
+    text-align: center;
+}
+.digitar input{
+    width: 200px;
+    font-size: 24px;
+    padding: 10px;
+}
+.letras input {
+    width: 80px;
+    font-size: 44px;
+    text-align: center;
+    padding: 10px;
+}
+
+.opcoes{
+    text-align: center;
+}
+
+.imagem img {
+    margin-top: 100px;
+    height: 400px;
+    width: 350px;
+}
