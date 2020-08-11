@@ -1,22 +1,41 @@
 
 const palavras = [
     {
+        "palavra": "ergonomia",
+        "dica": "norma que tem por objetivo a segurança e a prevenção de acidentes",
+    },
+    {
+        "palavra": "flow rack",
+        "dica": "estrutura que evita rupturas",
+    },
+    {
+        "palavra": "porta palet",
+        "dica": "estrutura muito comum em almoxarifados",
+    },
+    {
         "palavra": "patinha",
         "dica": "equipamento usado para transportar palets manualmente",
     },
     {
-        "palavra": "cachorro",
-        "dica": "animal da familia dos mamíferos, melhor amigo do homem",
-        "info": "8 letras"
+        "palavra": "empilhadeira manual",
+        "dica": "carregam cargas unitizadas sobre eles",
     },
     {
-        "palavra": "boneco",
-        "dica": "Brinquedo comumente feito de plástico, e utilizados por meninos",
+        "palavra": "empilhadeira motorizada",
+        "dica": "é utilizado em galpôes, pátios e portos, para elevar cargas",
     },
     {
-        "palavra": "computador",
-        "dica": "aparelho eletrônico utilizado para acessar a internet",
+        "palavra": "drive-in",
+        "dica": "é utilizado para depositar ou depositar mercadoria",
     },
+    {
+        "palavra": "escada",
+        "dica": "é utilizado para alcançar objetos",
+    },
+    {
+        "palavra": "carrinho armazém",
+        "dica": "é utilizado para movimentar cargas e embalagens médias",
+    }
 ]
 
 let jogando = true;
@@ -75,7 +94,7 @@ var interval = setInterval(function() {
         comparar += v.value;
     })
     if(comparar == palavraEscolhida){
-        alert("PARABÉNS!!!!!!1 VOCÊ É O VENCEDOR");
+        alert("PARABÉNS!!!!!! VOCÊ É O VENCEDOR");
         clearInterval(interval);
     }
 }, 1000);
