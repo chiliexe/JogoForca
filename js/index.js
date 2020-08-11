@@ -150,3 +150,13 @@ const checkWord = () => {
     });
 }
 fillWords(1);
+
+
+document.querySelector(".clean").addEventListener('click', (e) => {
+    document.querySelector('img').src = "images/imagem1.png";
+    document.querySelector("span").innerHTML = "";
+    document.querySelectorAll(".inpt").forEach((v, i) => {
+        v.value = ""
+    });
+    index = 0;
+});
